@@ -1,0 +1,180 @@
+
+body{
+    background-image: url("https://wallpapercave.com/wp/wp2533061.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: space-between;
+}
+.wrapper{
+   
+    margin-left: 1000px;
+    margin-top: 260px;
+    width: 420px;
+    background: transparent;
+    border: 2px solid #195851;
+    backdrop-filter: blur(3px);
+    color: rgb(143, 143, 143);
+    border-radius: 12px;
+    padding: 30px 40px;
+    justify-content: center;
+    padding-left: 30px;
+    
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    color: whitesmoke;
+    
+}
+.wrapper h1:hover{
+    text-shadow:3px solid rgba(255, 255, 255, 0.634);
+
+}
+.wrapper h2{
+    font-size: 32px;
+    text-align: center;
+    
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 85%;
+    height: 45%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: rgb(255, 255, 255);
+}
+.input-box input:hover{
+    border:2px solid black;
+}
+.input-box1 input{
+    width: 85%;
+    height: 45%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 40px;
+    font-size: 16px;
+    color:  rgb(255, 255, 255);
+    padding: 20px 45px 20px 20px;
+}
+.input-box1 input::placeholder{
+    color: rgb(255, 255, 255);
+}
+.input-box1 input:hover{
+    border:2px solid black;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input{
+    accent-color: rgb(60, 36, 182);
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color: rgb(230, 14, 14);
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background:#157368;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.wrapper .btn:hover{
+    box-shadow: 0 0 20px rgb(1, 187, 146);
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+    
+}
+.register-link p a{
+    color: rgb(22, 22, 237);
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+.split{
+    margin-left: 1000px;
+    margin-top: 260px;
+    width: 800px;
+    background: transparent;
+    font-size: 90px;
+    color: rgb(143, 143, 143);
+    border-radius: 12px;
+    padding: 30px 40px;
+    position: absolute;
+    padding-left: 30px;
+    top: -50px;
+    left: -900px;
+    text-align: center;
+
+    
+}
+.loginnn{
+   padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 10px;
+    position: relative;
+}
+.slogan{
+    font-size: 30px;
+    margin-left: 380px;
+    color:#157368;
+}
+.slogan:hover{
+    zoom: 108%;
+}
+.brand:hover{
+    zoom: 109%;
+}
+.check:hover{
+    cursor: pointer;
+}
+span{
+    color: #157368;
+}
